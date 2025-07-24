@@ -1,107 +1,95 @@
-Here’s the updated README file:  
+🎓 मेरा IPU – Educational Platform
+A student-centric educational platform crafted to provide easy access to syllabus, notes, PYQs, and practical files for classes 6th to 12th. Designed for clarity, accessibility, and simplicity, it supports learners by offering well-structured study material with interactive features.
 
----
+🌟 Key Features
+📚 Class-wise Study Material
+Find notes, PYQs, syllabus, and practical files for each class from 6th to 12th.
 
-# Educational Website  
+🎉 Festival Greeting Pop-Ups
+Automatically display personalized greetings during festivals via a dynamic pop-up interface.
 
-An innovative platform designed to provide students with comprehensive study materials and features like automatic festival greeting pop-ups to enhance user engagement.  
+🖼️ Image-Based Navigation
+Navigate through content with visually intuitive icons and responsive resource cards.
 
----
+⚡ Easy File Access Structure
+Study material is neatly organized in folders and accessed through clickable buttons with HTML redirections.
 
-## 🌟 Features  
+📱 Fully Responsive Design
+Built using mobile-first principles to ensure the platform looks great across devices.
 
-- **📚 Student Notes Repository**  
-  Access a vast collection of well-organized and easy-to-understand notes for various subjects.  
+🔗 Demo
+Live Website
 
-- **🎉 Festival Greeting Pop-ups**  
-  Automatically display personalized festival wishes to users via a dynamic pop-up feature.  
+🛠️ How to Run Locally
+Clone the Repository
 
-- **📋 Simple File-Based Pop-Up Configuration**  
-  The festival greetings are controlled directly through a file named `popup.js` located at the project root.  
+bash
+Copy
+Edit
+git clone https://github.com/tejazmali/educational-website.git  
+cd educational-website  
+Run via Live Server
+Open index.html with Live Server in VS Code.
 
-- **📱 Mobile-Responsive Design**  
-  A seamless experience across all devices, ensuring accessibility and convenience.  
+⚠️ Note: Clicking on class links may not work via file:// path directly due to browser routing limitations. Always use Live Server.
 
----
-## Demo
-[Live Demo](https://fundamental-academy.web.app/)
+Directory Structure Tip
+Ensure folders like /study material/Notes/notes-9th/ exist and contain an index.html to avoid 404 errors.
 
+Customizing Pop-ups
+Edit popup.js in root to set your own festival messages:
 
+javascript
+Copy
+Edit
+const popups = [  
+  {  
+    name: "Diwali",  
+    message: "Happy Diwali! Study with light and joy.",  
+    date: "2025-10-29"  
+  },  
+  {  
+    name: "New Year",  
+    message: "Happy New Year! New goals, new chapters.",  
+    date: "2026-01-01"  
+  }  
+];  
+export default popups;  
+📁 Folder Structure Overview
+pgsql
+Copy
+Edit
+📂 educational-website  
+├── 📂 Images  
+├── 📂 study material  
+│   ├── 📂 Notes  
+│   │   └── 📂 notes-9th (→ should contain index.html)  
+├── 📄 index.html  
+├── 📄 popup.js  
+└── 📄 style.css  
+📚 Technologies Used
+HTML
 
-## 🚀 How to Use  
+CSS
 
-1. **Clone the Repository**  
-   ```bash  
-   git clone https://github.com/tejazmali/educational-website.git  
-   cd educational-website  
-   ```  
+JavaScript
 
-2. **Open the Project**  
-   Open the project in any code editor or directly in your browser using the `index.html` file.  
+Live Server for local testing
 
-3. **Pop-Up Configuration**  
-   - The pop-up greetings feature is controlled via `popup.js`.  
-   - Open the file in the root directory and customize the greetings:  
-     ```javascript  
-     const popups = [  
-       {  
-         name: "Diwali",  
-         message: "Happy Diwali! Wishing you joy and prosperity.",  
-         date: "2024-11-12"  
-       },  
-       {  
-         name: "Christmas",  
-         message: "Merry Christmas! Have a joyful holiday season.",  
-         date: "2024-12-25"  
-       }  
-     ];  
-     export default popups;  
-     ```  
+👨‍💻 Contributing
+We welcome contributors!
 
-4. **Deployment**  
-   Host your website on any platform like GitHub Pages, Netlify, or Vercel for public access.  
+Fork the repository
 
----
+Make your changes in a new branch
 
-## 🛠️ Technologies Used  
+Create a pull request with clear commit messages
 
-- **HTML**  
-- **CSS**  
-- **JavaScript**  
+📜 License
+MIT License – Use freely with attribution.
 
----
-
-## 🤝 Contributing  
-
-Contributions are welcome! Follow these steps:  
-1. Fork the repository.  
-2. Create a new branch:  
-   ```bash  
-   git checkout -b feature-name  
-   ```  
-3. Commit your changes:  
-   ```bash  
-   git commit -m "Add feature-name"  
-   ```  
-4. Push to the branch:  
-   ```bash  
-   git push origin feature-name  
-   ```  
-5. Open a Pull Request.  
-
----
-
-## 📜 License  
-
-This project is licensed under the **MIT License**.  
-
----
-
-## 📬 Contact  
-
-For any questions or feedback, feel free to reach out:  
-**GitHub**: [@tejazmali](https://github.com/tejazmali)  
-**Website**: [Portfolio](https://tejasmali.vercel.app)
-
-
+📬 Contact
+Have feedback or want to collaborate?
+GitHub: @tejazmali
+Website: Portfolio
 
