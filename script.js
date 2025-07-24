@@ -256,23 +256,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-<script>
-  const toggle = document.getElementById('themeToggle');
-
-  toggle.addEventListener('change', () => {
-    document.body.classList.toggle('dark-mode', toggle.checked);
-    localStorage.setItem('theme', toggle.checked ? 'dark' : 'light');
-  });
-
-  // Set initial toggle state
-  window.onload = () => {
-    const theme = localStorage.getItem('theme');
-    if (theme === 'dark') {
-      document.body.classList.add('dark-mode');
-      toggle.checked = true;
-    }
-  };
-</script>
 
 //notes page end
 
