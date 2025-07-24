@@ -1517,39 +1517,3 @@ margin-bottom: 100px;
   object-fit: cover; /* Ensures images maintain aspect ratio and cover the entire container */
   border-radius: 8px;
 }
-/* Switch UI */
-.switch {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-}
-.switch input { display: none; }
-.slider {
-  width: 50px;
-  height: 25px;
-  background-color: #ccc;
-  border-radius: 25px;
-  cursor: pointer;
-  position: relative;
-}
-.slider:before {
-  content: "";
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  left: 2px;
-  top: 2px;
-  background-color: white;
-  border-radius: 50%;
-  transition: 0.4s;
-}
-input:checked + .slider {
-  background-color: #2196F3;
-}
-input:checked + .slider:before {
-  transform: translateX(25px);
-}
-
-/* Theme styles as before */
-
-
