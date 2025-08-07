@@ -385,6 +385,7 @@ a {
 #class-11th {
   background-image: url('/Images/2,png');
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+}
 
 
 #class-8th {
@@ -1525,4 +1526,5 @@ margin-bottom: 100px;
   object-fit: cover; /* Ensures images maintain aspect ratio and cover the entire container */
   border-radius: 8px;
 }
+
 
