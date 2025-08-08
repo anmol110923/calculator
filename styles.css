@@ -377,13 +377,13 @@ a {
 }
 
 #class-10th {
-  background-image: url('/Images/1.png');
+  background-image: url('/Images/2.png');
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
 
 }
 
 #class-11th {
-  background-image: url('/Images/2.png');
+  background-image: url('/Images/1.png');
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
 }
 
