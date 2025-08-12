@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Year Syllabus | मेरा IPU</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="bluehighlight-remove.css">
+    <link rel="icon" href="/Images/logo-new.png" type="image/x-icon">
+    <meta name="description" content="Access 1st year syllabus, iconic notes, PYQs, practical files, and more. All resources are structured, trusted, and updated regularly for IPU students ">
+    <meta name="keywords" content="1st year syllabus, notes, IPU study materials, 8th grade PYQs, Practical files, Fundamental Academy, CBSE, IPU, education resources">
+    <meta name="author" content="Kunwar Anmol">
+    <meta name="theme-color" content="#1C1C21">
+    <style>
+        /* Button styles for Notes and PYQs */
+        .resource-buttons {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .resource-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .resource-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        .resource-btn:active {
+            transform: translateY(0);
+        }
+        
+        .resource-btn::before {
+            content: "";
+            width: 16px;
+            height: 16px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .notes-btn::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z'/%3E%3Cpolyline points='14,2 14,8 20,8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3Cpolyline points='10,9 9,9 8,9'/%3E%3C/svg%3E");
+        }
+        
+        .pyq-btn::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'/%3E%3C/svg%3E");
+        }
+        
+        @media (max-width: 768px) {
+            .resource-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .resource-btn {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body class="notes-page" id="content">
+
+    <!-- Loading Screen -->
+    <div class="redirect-loader" id="redirect-loader"></div>
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <div class="hero-notes reveal">
+        <div class="hero-content-notes reveal">
+            <h1>Year 2 Syllabus</h1>
+            <p>All resources are structured, trusted, and updated regularly for IPU</p>
+        </div>
+    </div>
+
+    <!-- Subtitle -->
+    <h1 class="h1-below reveal">All your syllabus, one click away!</h1>
+
+ <li>
+    <div class="subject-title active" onclick="toggleChapters(this)">
+        Discrete Mathematics <span class="icon">+</span>
+    </div>
+    <ul class="chapter-list" style="max-height: none;">
+        <!-- Unit 1 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 1: Sets, Logic & Relations</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Set Theory:</strong>
+                    <ul>
+                        <li>Sets, Subsets, Powerset</li>
+                        <li>Set operations</li>
+                        <li>Principle of inclusion-exclusion</li>
+                        <li>Pigeonhole principle</li>
+                    </ul>
+                </li>
+                <li><strong>Logic Systems:</strong>
+                    <ul>
+                        <li>Propositional logic</li>
+                        <li>Rules of inference</li>
+                        <li>Predicate logic & quantifiers</li>
+                        <li>Normal forms</li>
+                    </ul>
+                </li>
+                <li><strong>Proof Techniques:</strong>
+                    <ul>
+                        <li>Direct proof</li>
+                        <li>Proof by contraposition</li>
+                        <li>Proof by contradiction</li>
+                    </ul>
+                </li>
+                <li><strong>Combinatorics:</strong>
+                    <ul>
+                        <li>Permutations & combinations</li>
+                        <li>Well-ordering principle</li>
+                        <li>Mathematical induction</li>
+                        <li>Complete induction</li>
+                    </ul>
+                </li>
+                <li><strong>Relations:</strong>
+                    <ul>
+                        <li>Binary relation properties</li>
+                        <li>Equivalence relations & classes</li>
+                        <li>Closures (reflexive, symmetric, transitive)</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 2 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 2: Functions & Boolean Algebra</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Function Theory:</strong>
+                    <ul>
+                        <li>Function properties</li>
+                        <li>Growth of functions</li>
+                        <li>Permutation functions</li>
+                    </ul>
+                </li>
+                <li><strong>Order Structures:</strong>
+                    <ul>
+                        <li>Posets (Partially ordered sets)</li>
+                        <li>Lattices</li>
+                    </ul>
+                </li>
+                <li><strong>Boolean Algebra:</strong>
+                    <ul>
+                        <li>Boolean expressions</li>
+                        <li>Minimization techniques</li>
+                    </ul>
+                </li>
+                <li><strong>Number Theory:</strong>
+                    <ul>
+                        <li>GCD, LCM</li>
+                        <li>Prime numbers</li>
+                    </ul>
+                </li>
+                <li><strong>Recurrence Relations:</strong>
+                    <ul>
+                        <li>Solution methods for linear recurrence</li>
+                        <li>Generating functions</li>
+                        <li>Divide-and-conquer recurrences</li>
+                        <li>Master's theorem (with proof)</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 3 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 3: Group Theory</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Algebraic Structures:</strong>
+                    <ul>
+                        <li>Semi-groups</li>
+                        <li>Monoids</li>
+                        <li>Groups (definition & properties)</li>
+                    </ul>
+                </li>
+                <li><strong>Group Properties:</strong>
+                    <ul>
+                        <li>Identity & inverses (uniqueness)</li>
+                        <li>Subgroups</li>
+                        <li>Cosets</li>
+                        <li>Lagrange's theorem</li>
+                    </ul>
+                </li>
+                <li><strong>Morphisms:</strong>
+                    <ul>
+                        <li>Isomorphism</li>
+                        <li>Homomorphism</li>
+                    </ul>
+                </li>
+                <li><strong>Advanced Concepts:</strong>
+                    <ul>
+                        <li>Permutation groups</li>
+                        <li>Cayley's theorem (statement)</li>
+                        <li>Normal subgroups</li>
+                        <li>Quotient groups</li>
+                        <li>Coding applications</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 4 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 4: Graph Theory</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Fundamentals:</strong>
+                    <ul>
+                        <li>Graph terminology</li>
+                        <li>Planar graphs</li>
+                        <li>Euler's formula (proof)</li>
+                    </ul>
+                </li>
+                <li><strong>Special Graphs:</strong>
+                    <ul>
+                        <li>Eulerian paths/circuits</li>
+                        <li>Hamiltonian paths/circuits</li>
+                    </ul>
+                </li>
+                <li><strong>Graph Coloring:</strong>
+                    <ul>
+                        <li>Chromatic number</li>
+                        <li>Five color theorem (proof)</li>
+                    </ul>
+                </li>
+                <li><strong>Algorithms:</strong>
+                    <ul>
+                        <li>Shortest path algorithms</li>
+                        <li>Minimum spanning trees</li>
+                        <li>DFS & BFS implementations</li>
+                        <li>Tree constructions</li>
+                    </ul>
+                </li>
+                <li><strong>Complexity Analysis:</strong>
+                    <ul>
+                        <li>Connected components</li>
+                        <li>MST algorithm analysis</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>   
+<li>
+    <div class="subject-title active" onclick="toggleChapters(this)">
+        Study Material <span class="icon">+</span>
+    </div>
+    <ul class="chapter-list" style="max-height: none;">
+        <li class="unit">
+            <div class="resource-buttons">
+                <a href="https://drive.google.com/drive/folders/1NYyUmaWhWaqKRrVUGFPRkJ_mfPfMWrxx?usp=drive_link" 
+                   class="resource-btn notes-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    📚 Notes
+                </a>
+                <a href="https://drive.google.com/drive/folders/1NYyUmaWhWaqKRrVUGFPRkJ_mfPfMWrxx?usp=drive_link" 
+                   class="resource-btn pyq-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    ✅ PYQs
+                </a>
+            </div>
+        </li>
+    </ul>
+</li>
+
+    <!-- FAQ Section -->
+    <section class="faq-section reveal">
+        <div class="faq-header reveal">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-content">
+            <div class="faq-item">
+                <button class="faq-question">Are all resources really free? <span class="plus-icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Yes, 100% free — no sign-ups, no ads. Just learning without limits.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I share this with friends or teachers? <span class="plus-icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Absolutely! Knowledge grows by sharing — feel free to forward our materials to anyone in need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer"></div>
+
+    <!-- JavaScript -->
+    <script src="/script.js"></script>
+</body>
+</html>
