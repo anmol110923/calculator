@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Year Syllabus | मेरा IPU</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="bluehighlight-remove.css">
+    <link rel="icon" href="/Images/logo-new.png" type="image/x-icon">
+    <meta name="description" content="Access 1st year syllabus, iconic notes, PYQs, practical files, and more. All resources are structured, trusted, and updated regularly for IPU students ">
+    <meta name="keywords" content="1st year syllabus, notes, IPU study materials, 8th grade PYQs, Practical files, Fundamental Academy, CBSE, IPU, education resources">
+    <meta name="author" content="Kunwar Anmol">
+    <meta name="theme-color" content="#1C1C21">
+    <style>
+        /* Button styles for Notes and PYQs */
+        .resource-buttons {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .resource-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .resource-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        .resource-btn:active {
+            transform: translateY(0);
+        }
+        
+        .resource-btn::before {
+            content: "";
+            width: 16px;
+            height: 16px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .notes-btn::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z'/%3E%3Cpolyline points='14,2 14,8 20,8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3Cpolyline points='10,9 9,9 8,9'/%3E%3C/svg%3E");
+        }
+        
+        .pyq-btn::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'/%3E%3C/svg%3E");
+        }
+        
+        @media (max-width: 768px) {
+            .resource-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .resource-btn {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body class="notes-page" id="content">
+
+    <!-- Loading Screen -->
+    <div class="redirect-loader" id="redirect-loader"></div>
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <div class="hero-notes reveal">
+        <div class="hero-content-notes reveal">
+            <h1>Year 1 Syllabus</h1>
+            <p>All resources are structured, trusted, and updated regularly for IPU</p>
+        </div>
+    </div>
+
+    <!-- Subtitle -->
+    <h1 class="h1-below reveal">All your syllabus, one click away!</h1>
+<li>
+    <div class="subject-title active" onclick="toggleChapters(this)">
+        Computational Methods <span class="icon">+</span>
+    </div>
+    <ul class="chapter-list" style="max-height: none;">
+        <!-- Unit 1 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 1: Foundations & Root-Finding</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Theoretical Foundations:</strong> 
+                    <ul>
+                        <li>Review of Taylor Series</li>
+                        <li>Rolle's Theorem and Mean Value Theorem</li>
+                    </ul>
+                </li>
+                <li><strong>Numerical Fundamentals:</strong> 
+                    <ul>
+                        <li>Approximations and Errors</li>
+                        <li>Data representation and computer arithmetic</li>
+                        <li>Loss of significance in computation</li>
+                    </ul>
+                </li>
+                <li><strong>Root-Finding Methods:</strong> 
+                    <ul>
+                        <li>Bisection method (convergence analysis)</li>
+                        <li>Newton Method (convergence analysis)</li>
+                        <li>Secant Method (convergence analysis)</li>
+                    </ul>
+                </li>
+                <li><strong>Optimization Techniques:</strong> 
+                    <ul>
+                        <li>Fibonacci search</li>
+                        <li>Golden Section Search</li>
+                        <li>Newton's method (univariate)</li>
+                        <li>Steepest descent (multivariate)</li>
+                        <li>Nelder-Mead Algorithm</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 2 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 2: Interpolation & Integration</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Interpolation Theory:</strong> 
+                    <ul>
+                        <li>Assumptions and polynomial interpolation errors</li>
+                        <li>Finite differences</li>
+                    </ul>
+                </li>
+                <li><strong>Interpolation Methods:</strong> 
+                    <ul>
+                        <li>Gregory-Newton's Forward/Backward</li>
+                        <li>Lagrange's Interpolation</li>
+                        <li>Newton's divided difference</li>
+                    </ul>
+                </li>
+                <li><strong>Numerical Integration:</strong> 
+                    <ul>
+                        <li>Newton-Cote's Quadrature</li>
+                        <li>Trapezoidal Rule</li>
+                        <li>Simpson's 1/3 and 3/8 rules</li>
+                        <li>Error analysis</li>
+                    </ul>
+                </li>
+                <li><strong>Advanced Techniques:</strong> 
+                    <ul>
+                        <li>Romberg's Algorithm</li>
+                        <li>Gaussian Quadrature</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 3 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 3: Linear Systems & Splines</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Linear Systems:</strong> 
+                    <ul>
+                        <li>Existence of solutions</li>
+                        <li>Gauss elimination (with pivoting)</li>
+                        <li>Gauss-Jordan method</li>
+                    </ul>
+                </li>
+                <li><strong>Matrix Factorization:</strong> 
+                    <ul>
+                        <li>Dolittle algorithm</li>
+                        <li>Crout's Algorithm</li>
+                        <li>Cholesky method</li>
+                    </ul>
+                </li>
+                <li><strong>Eigenvalue Problems:</strong> Power method</li>
+                <li><strong>Spline Approximation:</strong> 
+                    <ul>
+                        <li>First/Second-Degree Splines</li>
+                        <li>Natural Cubic Splines</li>
+                        <li>B Splines</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 4 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 4: Differential Equations</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>ODE Solutions:</strong> 
+                    <ul>
+                        <li>Picard's method</li>
+                        <li>Taylor series method</li>
+                        <li>Euler's method</li>
+                        <li>Runge-Kutta methods</li>
+                    </ul>
+                </li>
+                <li><strong>Predictor-Corrector Methods:</strong> 
+                    <ul>
+                        <li>Adams-Bashforth</li>
+                        <li>Milne's method</li>
+                    </ul>
+                </li>
+                <li><strong>PDE Solutions:</strong> 
+                    <ul>
+                        <li>Parabolic equations</li>
+                        <li>Hyperbolic equations</li>
+                        <li>Elliptic equations</li>
+                    </ul>
+                </li>
+                <li><strong>Implementation:</strong> C/C++ applications</li>
+            </ul>
+        </li>
+    </ul>
+</li>
+
+<li>
+    <div class="subject-title active" onclick="toggleChapters(this)">
+        Study Material <span class="icon">+</span>
+    </div>
+    <ul class="chapter-list" style="max-height: none;">
+        <li class="unit">
+            <div class="resource-buttons">
+                <a href="https://drive.google.com/drive/folders/1NYyUmaWhWaqKRrVUGFPRkJ_mfPfMWrxx?usp=drive_link" 
+                   class="resource-btn notes-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    📚 Notes
+                </a>
+                <a href="https://drive.google.com/drive/folders/1NYyUmaWhWaqKRrVUGFPRkJ_mfPfMWrxx?usp=drive_link" 
+                   class="resource-btn pyq-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    ✅ PYQs
+                </a>
+            </div>
+        </li>
+    </ul>
+</li>
+
+    <!-- FAQ Section -->
+    <section class="faq-section reveal">
+        <div class="faq-header reveal">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-content">
+            <div class="faq-item">
+                <button class="faq-question">Are all resources really free? <span class="plus-icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Yes, 100% free — no sign-ups, no ads. Just learning without limits.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I share this with friends or teachers? <span class="plus-icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Absolutely! Knowledge grows by sharing — feel free to forward our materials to anyone in need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer"></div>
+
+    <!-- JavaScript -->
+    <script src="/script.js"></script>
+</body>
+</html>
