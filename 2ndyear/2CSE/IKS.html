@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Year Syllabus | मेरा IPU</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="bluehighlight-remove.css">
+    <link rel="icon" href="/Images/logo-new.png" type="image/x-icon">
+    <meta name="description" content="Access 1st year syllabus, iconic notes, PYQs, practical files, and more. All resources are structured, trusted, and updated regularly for IPU students ">
+    <meta name="keywords" content="1st year syllabus, notes, IPU study materials, 8th grade PYQs, Practical files, Fundamental Academy, CBSE, IPU, education resources">
+    <meta name="author" content="Kunwar Anmol">
+    <meta name="theme-color" content="#1C1C21">
+    <style>
+        /* Button styles for Notes and PYQs */
+        .resource-buttons {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .resource-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .resource-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        .resource-btn:active {
+            transform: translateY(0);
+        }
+        
+        .resource-btn::before {
+            content: "";
+            width: 16px;
+            height: 16px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .notes-btn::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z'/%3E%3Cpolyline points='14,2 14,8 20,8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3Cpolyline points='10,9 9,9 8,9'/%3E%3C/svg%3E");
+        }
+        
+        .pyq-btn::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'/%3E%3C/svg%3E");
+        }
+        
+        @media (max-width: 768px) {
+            .resource-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .resource-btn {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body class="notes-page" id="content">
+
+    <!-- Loading Screen -->
+    <div class="redirect-loader" id="redirect-loader"></div>
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <div class="hero-notes reveal">
+        <div class="hero-content-notes reveal">
+            <h1>Year 2 Syllabus</h1>
+            <p>All resources are structured, trusted, and updated regularly for IPU</p>
+        </div>
+    </div>
+
+    <!-- Subtitle -->
+    <h1 class="h1-below reveal">All your syllabus, one click away!</h1>
+
+<li>
+    <div class="subject-title active" onclick="toggleChapters(this)">
+        Indian Knowledge System <span class="icon">+</span>
+    </div>
+    <ul class="chapter-list" style="max-height: none;">
+        <!-- Unit 1 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 1: Foundations of IKS</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Introduction to IKS:</strong>
+                    <ul>
+                        <li>Overview and significance</li>
+                        <li>Classification framework</li>
+                        <li>Chaturdaśa-Vidyāsthāna</li>
+                        <li>Unique characteristics</li>
+                    </ul>
+                </li>
+                <li><strong>Vedic Corpus:</strong>
+                    <ul>
+                        <li>The Four Vedas and divisions</li>
+                        <li>Vedāngas (auxiliary disciplines)</li>
+                        <li>Vedic way of life</li>
+                    </ul>
+                </li>
+                <li><strong>Philosophical Systems:</strong>
+                    <ul>
+                        <li>Vedic schools of thought</li>
+                        <li>Non-Vedic philosophies</li>
+                    </ul>
+                </li>
+                <li><strong>Wisdom Literature:</strong>
+                    <ul>
+                        <li>Purāṇic knowledge</li>
+                        <li>Itihāsa as wisdom source</li>
+                        <li>Rāmāyaṇa & Mahābhārata</li>
+                        <li>Niti-śāstras & Subhāṣitas</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 2 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 2: Scientific Foundations</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Linguistics:</strong>
+                    <ul>
+                        <li>Pāṇini's Aṣṭādhyāyī</li>
+                        <li>Sanskrit phonetics</li>
+                        <li>Computational grammar</li>
+                        <li>Role in NLP</li>
+                    </ul>
+                </li>
+                <li><strong>Mathematics:</strong>
+                    <ul>
+                        <li>Indian numeral system</li>
+                        <li>Unique representations</li>
+                        <li>Piṅgala's binary system</li>
+                    </ul>
+                </li>
+                <li><strong>Measurement Systems:</strong>
+                    <ul>
+                        <li>Time measurement</li>
+                        <li>Distance metrics</li>
+                        <li>Weight standards</li>
+                    </ul>
+                </li>
+                <li><strong>Epistemology:</strong>
+                    <ul>
+                        <li>Knowledge triangle</li>
+                        <li>Pramāṇa (valid knowledge)</li>
+                        <li>Prameya (knowable)</li>
+                        <li>Samśaya (doubt resolution)</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 3 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 3: Mathematics & Astronomy</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Mathematical Traditions:</strong>
+                    <ul>
+                        <li>Great mathematicians:
+                            <ul>
+                                <li>Āryabhaṭa</li>
+                                <li>Brahmagupta</li>
+                                <li>Bhāskara</li>
+                            </ul>
+                        </li>
+                        <li>Algebraic contributions</li>
+                        <li>Geometric innovations</li>
+                        <li>Combinatorics in Chandah-śāstra</li>
+                    </ul>
+                </li>
+                <li><strong>Astronomical Systems:</strong>
+                    <ul>
+                        <li>Siddhāntic traditions</li>
+                        <li>Celestial coordinate systems</li>
+                        <li>Pañcāṅga (calendar)</li>
+                    </ul>
+                </li>
+                <li><strong>Observational Astronomy:</strong>
+                    <ul>
+                        <li>Jantar Mantar observatories</li>
+                        <li>Astronomical instruments</li>
+                        <li>Āryabhaṭīya's contributions</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Unit 4 -->
+        <li class="unit">
+            <div class="unit-header" onclick="toggleSubChapters(this)">
+                <strong>Unit 4: Engineering & Technology</strong> <span class="sub-icon">+</span>
+            </div>
+            <ul class="sub-chapter-list">
+                <li><strong>Metallurgy:</strong>
+                    <ul>
+                        <li>Ancient mining techniques</li>
+                        <li>Iron & steel production</li>
+                        <li>Lost-wax casting</li>
+                        <li>Metal extraction apparatus</li>
+                    </ul>
+                </li>
+                <li><strong>Civil Engineering:</strong>
+                    <ul>
+                        <li>Water management systems</li>
+                        <li>Architectural marvels</li>
+                        <li>Construction techniques</li>
+                    </ul>
+                </li>
+                <li><strong>Applied Sciences:</strong>
+                    <ul>
+                        <li>Dye technology</li>
+                        <li>Surgical methods (Śalya Tantra)</li>
+                        <li>Shipbuilding traditions</li>
+                    </ul>
+                </li>
+                <li><strong>Cultural Technologies:</strong>
+                    <ul>
+                        <li>64 Kalās (art forms)</li>
+                        <li>Literary sources of S&T</li>
+                        <li>Indigenous knowledge status</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>    
+<li>
+    <div class="subject-title active" onclick="toggleChapters(this)">
+        Study Material <span class="icon">+</span>
+    </div>
+    <ul class="chapter-list" style="max-height: none;">
+        <li class="unit">
+            <div class="resource-buttons">
+                <a href="https://drive.google.com/drive/folders/1NYyUmaWhWaqKRrVUGFPRkJ_mfPfMWrxx?usp=drive_link" 
+                   class="resource-btn notes-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    📚 Notes
+                </a>
+                <a href="https://drive.google.com/drive/folders/1NYyUmaWhWaqKRrVUGFPRkJ_mfPfMWrxx?usp=drive_link" 
+                   class="resource-btn pyq-btn" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    ✅ PYQs
+                </a>
+            </div>
+        </li>
+    </ul>
+</li>
+
+    <!-- FAQ Section -->
+    <section class="faq-section reveal">
+        <div class="faq-header reveal">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-content">
+            <div class="faq-item">
+                <button class="faq-question">Are all resources really free? <span class="plus-icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Yes, 100% free — no sign-ups, no ads. Just learning without limits.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I share this with friends or teachers? <span class="plus-icon">+</span></button>
+                <div class="faq-answer">
+                    <p>Absolutely! Knowledge grows by sharing — feel free to forward our materials to anyone in need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer"></div>
+
+    <!-- JavaScript -->
+    <script src="/script.js"></script>
+</body>
+</html>
