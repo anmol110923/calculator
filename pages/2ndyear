@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2nd year | Mera IPU</title>
+  <meta name="description" content="Access Class 8 previous tests for CSE, ECE, EEE, and ME. Download free test papers and solutions curated by Fundamental Academy for exam prep.">
+  <meta name="keywords" content="CSE, ECE, EEE, ME previous test, IPU test paper, Engineering papers, Fundamental Academy">
+  <meta name="author" content="Tejas Mali" />
+  <meta name="theme-color" content="#1C1C21" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="bluehighlight-remove.css" />
+  <link rel="icon" href="/Images/logo-new.png" type="image/x-icon" />
+</head>
+
+<body class="notes-page" id="content">
+
+  <!-- Loading Screen -->
+  <div class="redirect-loader" id="redirect-loader"></div>
+  <div id="loading-screen">
+    <div class="loader"></div>
+  </div>
+  <div id="header"></div>
+
+  <!-- Hero Section -->
+  <div class="hero-notes reveal">
+    <div class="hero-content-notes reveal">
+      <h1>2nd Year Syllabus</h1>
+      <p>"Prepare more effectively with मेरा IPU"</p>
+      <p>"Work under Progress, Sorry for your inconvience"</p>
+    </div>
+  </div>
+
+  <h1 class="h1-below reveal">All your Subjects at one Place</h1>
+
+  <!-- Subject List -->
+  <ul class="subject-list reveal">
+ 
+<!-- CSE/IT -->
+<li>
+  <div class="subject-title active" onclick="toggleChapters(this)">
+    CSE / IT <span class="icon">+</span>
+  </div>
+  <ul class="chapter-list" style="max-height: none;">
+    <li><a href="\pages\syllabus.html" target="_blank"><b>Semester 1</b></a></li>
+    <li><a href="\2ndyear\2CSE\CM.html" target="_blank">Computational Methods</a></li>
+    <li><a href="\2ndyear\2CSE\DS.html" target="_blank">Data Structures</a></li>
+    <li><a href="\2ndyear\2CSE\DLCD.html" target="_blank">Digital Logic And Computer Design</a></li>
+    <li><a href="\2ndyear\2CSE\DM.html" target="_blank">Discrete Mathematics</a></li>
+    <li><a href="\2ndyear\2CSE\IKS.html" target="_blank">Indian Knowledge System</a></li>
+    <li><a href="\2ndyear\2CSE\OOP.html" target="_blank">Object Oriented Programming Using C++</a></li>
+    <li><a href="\pages\syllabus.html" target="_blank"><b>Semester 2</b></a></li>
+    <li><a href="\2ndyear\2CSE\PSLP.html" target="_blank">Probability, Statistics And Linear Programming</a></li>
+    <li><a href="\2ndyear\2CSE\TW.html" target="_blank">Technical Writing</a></li>
+    <li><a href="\2ndyear\2CSE\TOC.html" target="_blank">Theory Of Computation</a></li>
+    <li><a href="\2ndyear\2CSE\CAS.html" target="_blank">Circuits And Systems</a></li>
+    <li><a href="\2ndyear\2CSE\DBMS.html" target="_blank">Database Management System</a></li>
+    <li><a href="\2ndyear\2CSE\JAVA.html" target="_blank">Programming In Java</a></li>
+  </ul>
+</li>
+
+<!-- ECE -->
+<li>
+  <div class="subject-title" onclick="toggleChapters(this)">
+    ECE <span class="icon">+</span>
+  </div>
+  <ul class="chapter-list">
+    <li><a href="\2ndyear\2ECE\EMFT.html" target="_blank">Electromagnetic Field Theory</a></li>
+    <li><a href="\2ndyear\2ECE\OOP.html" target="_blank">Object Oriented Programming Using C++</a></li>
+    <li><a href="\2ndyear\2ECE\SSS.html" target="_blank">Signals And Systems</a></li>
+    <li><a href="\2ndyear\2ECE\NT.html" target="_blank">Network Theory</a></li>
+    <li><a href="\2ndyear\2ECE\IKS.html" target="_blank">Indian Knowledge System</a></li>
+    <li><a href="\2ndyear\2ECE\DE.html" target="_blank">Digital Electronics</a></li>
+    <li><a href="\2ndyear\2ECE\AE.html" target="_blank">Analog Electronics</a></li>
+    <li><a href="\2ndyear\2ECE\PRP.html" target="_blank">Probability And Random Processes</a></li>
+    <li><a href="\2ndyear\2ECE\TW.html" target="_blank">Technical Writing</a></li>
+  </ul>
+</li>
+
+<!-- EEE -->
+<li>
+  <div class="subject-title" onclick="toggleChapters(this)">
+    EEE <span class="icon">+</span>
+  </div>
+  <ul class="chapter-list">
+    <li><a href="\2ndyear\2EEE\EMFT.html" target="_blank">Electromagnetic Field Theory</a></li>
+    <li><a href="\2ndyear\2EEE\OOP.html" target="_blank">Object Oriented Programming Using C++</a></li>
+    <li><a href="\2ndyear\2EEE\SSS.html" target="_blank">Signals And Systems</a></li>
+    <li><a href="\2ndyear\2EEE\NT.html" target="_blank">Network Theory</a></li>
+    <li><a href="\2ndyear\2EEE\IKS.html" target="_blank">Indian Knowledge System</a></li>
+    <li><a href="\2ndyear\2EEE\DE.html" target="_blank">Digital Electronics</a></li>
+    <li><a href="\2ndyear\2EEE\EMI.html" target="_blank">Electrical Measurements And Instrumentation</a></li>
+    <li><a href="\2ndyear\2EEE\PS.html" target="_blank">Power Systems</a></li>
+    <li><a href="\2ndyear\2EEE\TW.html" target="_blank">Technical Writing</a></li>
+  </ul>
+</li>
+
+<!-- ME -->
+<li>
+  <div class="subject-title" onclick="toggleChapters(this)">
+    ME <span class="icon">+</span>
+  </div>
+  <ul class="chapter-list">
+    <li><a href="\2ndyear\2ME\MS.html" target="_blank">Material Science</a></li>
+    <li><a href="\2ndyear\2ME\BEE.html" target="_blank">Basic Electronics Engineering</a></li>
+    <li><a href="\2ndyear\2ME\FM.html" target="_blank">Fluid Mechanics</a></li>
+    <li><a href="\2ndyear\2ME\IKS.html" target="_blank">Indian Knowledge System</a></li>
+    <li><a href="\2ndyear\2ME\OOP.html" target="_blank">Object Oriented Programming Using C++</a></li>
+    <li><a href="\2ndyear\2ME\AT.html" target="_blank">Applied Thermodynamics</a></li>
+    <li><a href="\2ndyear\2ME\SOM.html" target="_blank">Strength Of Materials</a></li>
+    <li><a href="\2ndyear\2ME\TW.html" target="_blank">Technical Writing</a></li>
+  </ul>
+</li>
+</ul>
+    
+  <!-- FAQ Section -->
+  <section class="faq-section reveal">
+    <div class="faq-header reveal">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-content">
+      <div class="faq-item">
+        <button class="faq-question">How do we make previous tests? <span class="plus-icon">+</span></button>
+        <div class="faq-answer">
+          <p>We gather key questions from previous year papers (PYQs) and textbooks, covering important topics and a mix of difficulty levels to simulate real exams.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Why choose these previous tests? <span class="plus-icon">+</span></button>
+        <div class="faq-answer">
+          <p>They're comprehensive, neatly organized, and 100% free—perfect for self-study or revision.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Are these tests really free? <span class="plus-icon">+</span></button>
+        <div class="faq-answer">
+          <p>Yes, completely free. No sign-up or payment needed.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Can I share them with my friends/school? <span class="plus-icon">+</span></button>
+        <div class="faq-answer">
+          <p>Absolutely! Share them with anyone you like.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer and Scripts -->
+  <div id="footer"></div>
+  <script src="/script.js"></script>
+  <style>
+    * {
+      -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+      -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+      outline: none !important;
+    }
+  </style>
+</body>
+</html>
+
+
+
+
+
+
